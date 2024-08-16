@@ -6,5 +6,5 @@ Sorry, the current website is being updated or maintained. Please wait for this 
 更新日志  
 Update log  
 8.13 开通  
-8.14 修改了bug
+8.14 修改了bug  
 8.15 增加页面选择，以便阅读。  
