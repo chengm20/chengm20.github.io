@@ -9,6 +9,11 @@
 	 />
   <script>
 	 addEventListener("load", function () { setTimeout(hideURLbar, 0); }, false); function hideURLbar() { window.scrollTo(0, 1); }
+	 function getInputValue() {
+  var inputValue = document.getElementById("pwd").value;
+  if(inputValue=='20130320ncm'){
+location.assign("https://www.baidu.com");};
+};
   </script>
   <!-- Meta tags -->
   <!--stylesheets-->
@@ -879,7 +884,6 @@ input.checked {
 		<form action="#" method="post">
 		   <div class="main">
 			  <div class="form-left-to-w3l">
-			  <input type="text" name="name" placeholder="账户" required="" id="id">
 				 <input type="text" name="name" placeholder="校验码" required="" id="pwd">
 			  </div>
 			  <div class="form-left-to-w3l ">
@@ -890,7 +894,7 @@ input.checked {
 		   </div>
 		   <div class="clear"></div>
 		   <div class="btnn">
-			  <button type="submit" onclick="alert('Caomenger')">登录</button>
+			  <button type="submit" onclick="getInputValue()">登录</button>
 		   </div>
 		</form>
 		<div class="w3layouts_more-buttn">
